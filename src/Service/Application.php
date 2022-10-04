@@ -3,12 +3,8 @@
 namespace BaseClientApi\Service;
 
 
-use BaseClientApi\Controller\MainController;
-
 class Application
 {
-    private $router;
-
     private array $routes;
 
     private string $routePath = '';
@@ -55,9 +51,8 @@ class Application
         $pattern = str_replace('/', '\/', $pattern);
         if (is_null($constraints)) {
             return "/^" . $pattern . "/";
-//            return "".$pattern."";
         }
-//        $cc = '';
+
         foreach ($constraints as $key => $value) {
             $pattern = str_replace('{' . $key . '}', '(?P<' . $key . '>' . $value . ')', $pattern);
         }
