@@ -11,8 +11,8 @@ Testowanie PHPStorm:
 3. Testować możemy za pomocą PHPStorm w pliku tests/rest_request.http wybierając profil 'development', 
 
 Dostepne endpointy:
-/api/list - get
-/api/new - post (dane wejściowe: firstname, surname)
-/api/edit/id - post (id - identyfikator w bazie danych np: 2, dane wejściowe: firstname, surname)
-/api/delete/id - post (id - identyfikator w bazie danych np: 2)
+1. /api/list - get
+2. /api/new - post (dane wejściowe: firstname, surname)
+3. /api/edit/id - post (id - identyfikator w bazie danych np: 2, dane wejściowe: firstname, surname
+4. /api/delete/id - post (id - identyfikator w bazie danych np: 2)
 
