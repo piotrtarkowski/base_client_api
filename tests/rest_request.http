@@ -1,0 +1,28 @@
+GET http://{{host}}/api/list
+Accept: application/json
+
+###
+POST http://{{host}}/api/new
+Content-Type: application/json
+
+{
+  "firstname": "Karol",
+  "surname": "Janicki"
+}
+
+###
+
+POST http://{{host}}/api/edit/2
+Content-Type: application/json
+
+{
+  "firstname": "Jarosław",
+  "surname": "Kolwalski"
+}
+
+###
+
+GET http://{{host}}/api/delete/2
+Content-Type: application/x-www-form-urlencoded
+
+###

@@ -1,0 +1,18 @@
+{
+  "name": "piotrtarkowski/base-client-api",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "BaseClientApi\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Piotr Tarkowski",
+      "email": "piotr.tarkowski@itdee.pl"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  }
+}

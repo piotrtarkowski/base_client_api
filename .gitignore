@@ -1,2 +1,2 @@
-tests\http-client.private.env.json
+tests/http-client.private.env.json
 .idea\*
